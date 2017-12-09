@@ -104,14 +104,18 @@ menu_icons:
 
 # Schemes
 # scheme: Muse
-#scheme: Mist
-scheme: Pisces
-#scheme: Gemini
+# scheme: Mist
+# scheme: Pisces
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
 # Sidebar Settings
 # ---------------------------------------------------------------
+
+# 文章末尾添加“本文结束”标记
+passage_end_tag:
+  enabled: true
 
 # Social Links.
 # Usage: `Key: permalink || icon`
@@ -119,8 +123,10 @@ scheme: Pisces
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/yourname || github
+  GitHub: https://github.com/yixiaoming || github
   E-Mail: mailto:yixiaoming.me@qq.com || envelope
+  掘金: https://juejin.im/user/57a048aec4c971005ae9efe8
+  CSDN: http://blog.csdn.net/u013647382 || spinner
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -138,8 +144,8 @@ social_icons:
 # Blog rolls
 links_icon: link
 links_title: 常用链接
-links_layout: block
-#links_layout: inline
+# links_layout: block
+links_layout: inline
 links:
   Title: http://www.baidu.com/
 
@@ -208,7 +214,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings
