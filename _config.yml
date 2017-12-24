@@ -147,7 +147,13 @@ links_title: 常用链接
 # links_layout: block
 links_layout: inline
 links:
-  Title: http://www.baidu.com/
+  极客导航: http://www.jikedaohang.com
+  掘金专栏: https://juejin.im/zhuanlan/all
+  玩Android: http://www.wanandroid.com/index
+  Calm: https://www.calm.com/
+  DiyCode: https://www.diycode.cc/categories/Android
+  掘金酱: http://e.xitu.io
+  Pro Git 2nd: https://progit.bootcss.com
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
